@@ -29,10 +29,35 @@ body{
     flex-direction: column;
 }
 
+.start{
+ width: 100%;
+}
+
+.entrance{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.entrance > button {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 45%;
+    height: 2rem;
+}
+
+#nOfQ {
+    font-size: larger;
+    text-align: center;
+    width: 5rem;
+    height: 1.5rem;
+    border: 0px;
+}
+
 .descripe{
     padding: 2rem;
     width: 100%;
-    height: 60%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -82,6 +107,9 @@ body{
 #d{
     background-color:bisque;
 }
+.rightAns{
+    font-weight: bolder;
+}
 .yourAns{
     color: red;
 }
@@ -100,6 +128,9 @@ body{
 }
 .end{
     align-self: end;
+}
+.end:hover{
+    cursor: pointer;
 }
 .blink{
     animation: blink 3s infinite;

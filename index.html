@@ -9,14 +9,29 @@
 <body>
     <div class="container exam ">
         <div class="descripe">
-            <div class="taskNum">
-                <h2 id="taskNum">1.</h2>
+            <div class="start">
+                 <div class="intro">
+                    <h2 style="text-align: start;">
+                        This is a vocabulary test.
+                        Select the right vocabulary below to match question described.</br>
+                        How many question would you like to take.
+                    </h2>
+                    <input id="nOfQ" type="number" min="10" max="30" value="10">
+
+                </div>
+                <div class="entrance">
+                    <button id="start">Start</button>
+                    <button id="library">Question Library</button>
+                </div>
+             </div>
+            <div class="taskNum hide">
+                <h2 id="taskNum"></h2>
             </div>
-            <div class="taskDescripe">
+            <div class="taskDescripe hide">
                 <h2 id="taskDescripe">Lorem Ipsum is Lorem Ipsum y dummy text of the printing and typesetting industry.</h2>
             </div>
         </div>
-        <div class="btns">
+        <div class="btns hide">
             <div class="ans">
                 <div class="btn" id="a"><p id="ansa">answer a</p></div>
                 <div class="btn" id="b"><p id="ansb">answer b</p></div>
@@ -35,7 +50,7 @@
 
         <div class="wrong" id="wrongAns">
         </div>
-        <div class="end blink"><h5>refresh to do again</h5></div>
+        <div class="end blink"><h3>restart</h3></div>
     </div>
     <script src="./index.js"></script>
 </body>
