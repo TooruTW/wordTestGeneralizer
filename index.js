@@ -1,12 +1,5 @@
 const wordLibrary = [
     {
-        word : "私",
-        pronounce : "わたくし、わたし",
-        description :"一人称",
-        wordtype : "代名詞",
-        correct:false
-    },
-    {
         word : "アタフタ",
         pronounce : "アタフタ",
         description :"慌てて騒ぐ様子。",
